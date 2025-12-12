@@ -1,0 +1,26 @@
+ /* 1- Select the <h2> inside #card and make its text red. */
+.title {
+    color: red;
+}
+
+/* 2- Select ONLY the <p> elements that are direct children of .content and make them blue. */
+.content > p {
+    color : blue;
+}
+
+/* 3- Select the .highlight paragraph inside .info and make it bold. */
+.info .highlight {
+    font-weight: bold;
+}
+
+/* 4- Select ALL <p> elements inside #card except the one
+ inside .footer and change the font-size to 18px. */
+#card .content p {
+  font-size: 18px;
+}
+
+ /* 5- Select ONLY the <span> inside .info and make its background yellow */
+.info span {
+  background-color: yellow;
+}
+
