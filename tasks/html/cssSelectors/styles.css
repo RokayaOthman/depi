@@ -19,7 +19,7 @@
   font-size: 18px;
 }
 
- /* 5- Select ONLY the <span> inside .info and make its background yellow */
+ /* 5- Select ONLY the  <span> inside .info and make its background yellow */
 .info span {
   background-color: yellow;
 }

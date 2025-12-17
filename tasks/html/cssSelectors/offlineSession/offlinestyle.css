@@ -1,0 +1,67 @@
+
+/* Adjacent Sibling Selector (+)
+Make any <p> that comes immediately after a .special <p> turn red. */
+
+.special + p {
+    color: red;
+}
+
+
+
+/* 
+8️⃣ General Sibling Selector (~)
+Inside .inner, apply a border to ALL .note elements after the first one. */
+
+.inner .note:first-child ~ .note {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+
+/* 9️⃣ Attribute Selector
+Select elements with data-type="primary" → underline them. */
+
+[data-type="primary"] {
+    text-decoration: underline;
+}
+
+
+/* 🔟 Attribute Exists Selector
+Select ANY element that has data-flag → give it a yellow background. */
+
+[data-flag] {
+    background-color: yellow;
+}
+
+
+
+/* 
+1️⃣1️⃣ Pseudo-class :first-child
+Make the first .item in .menu orange. */
+
+.menu .item:first-child {
+    color: orange;
+}
+
+/* 
+1️⃣2️⃣ Pseudo-class :last-child
+Make the last .item in .menu purple. */
+
+.menu .item:last-child {
+    color: purple;
+}
+
+/* 1️⃣3️⃣ Pseudo-class :nth-child(3)
+Make the third .item in .menu bold.
+ */
+.menu .item:nth-child(3) {
+    font-weight: bold;
+}
+
+/* 
+1️⃣4️⃣ Pseudo-class :not()
+Make all .item:not(.active) have opacity: 0.6. */
+
+.menu .item:not(.active) {
+    opacity: 0.6;
+}
