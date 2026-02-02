@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(195, 186, 194);
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  gap: 10px;
+}
+.container div {
+  padding: 20px; 
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.item-1 {
+    grid-column: 1 / 4;
+    background-color: rgb(169, 36, 104);
+}
+
+.item-2 {
+    background-color: rgb(112, 103, 164);
+    grid-row: 2 / 4;
+}
+
+.item-3 {
+  background-color: rgb(133, 143, 191);
+}
+
+.item-4 {
+  background-color: rgb(165, 221, 211)
+}
+
+.item-5 {
+    grid-column: 2 / 4;
+    background-color: rgb(189, 141, 205);
+}
