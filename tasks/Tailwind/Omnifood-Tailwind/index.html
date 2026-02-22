@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omnifood — Never cook again!</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body { font-family: 'Rubik', sans-serif; }
+  </style>
+</head>
+
+<body class= " text-gray-800">
+
+<!-- HEADER -->
+<header class="w-full bg-orange-50 ">
+  <div class="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
+    <img src="img/omnifood-logo.png" class="h-6 " alt="Omnifood logo" />
+
+  <nav class="hidden md:block">
+    <ul class="flex gap-10 text-lg font-medium">
+      <li><a href="#how" class="hover:text-orange-500 transition">How it works</a></li>
+      <li><a href="#meals" class="hover:text-orange-500 transition">Meals</a></li>
+      <li><a href="#testimonials" class="hover:text-orange-500 transition">Testimonials</a></li>
+      <li><a href="#pricing" class="hover:text-orange-500 transition">Pricing</a></li>
+      <li>
+        <a href="#cta" class="bg-orange-500 text-white px-5 py-2 rounded-lg hover:bg-orange-600 transition">
+          Try for free
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-orange-50 py-20">
+  <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- TEXT -->
+    <div>
+      <h1 class="text-5xl font-bold leading-tight mb-6">
+        A healthy meal delivered to your door, every single day
+      </h1>
+
+      <p class="text-lg text-gray-600 mb-8">
+        The smart 365-days-per-year food subscription that will make you eat healthy again.
+        Tailored to your personal tastes and nutritional needs.
+      </p>
+
+      <div class="flex gap-4 mb-10">
+        <a href="#cta" class="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition">
+          Start eating well
+        </a>
+
+        <a href="#how" class="border border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+          Learn more ↓
+        </a>
+      </div>
+
+      <!-- Delivered meals -->
+      <div class="flex items-center gap-4">
+        <div class="flex -space-x-3">
+          <img src="img/customers/ben.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+          <img src="img/customers/dave (1).jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+          <img src="img/customers/hannah.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+          <img src="img/customers/steve.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+        </div>
+
+        <p class="text-sm text-gray-600">
+          <span class="font-bold text-gray-900">250,000+</span> meals delivered last year!
+        </p>
+      </div>
+    </div>
+
+    <!-- IMAGE -->
+    <div>
+      <img src="img/hero-min.webp" class="w-full" alt="Woman enjoying food" />
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURED -->
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-8 text-center">
+    <h2 class="uppercase text-gray-500 tracking-widest text-sm font-semibold mb-8">
+      As featured in
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center opacity-60">
+      <img src="img/logos/techcrunch.png" class="mx-auto h-6" />
+      <img src="img/logos/business-insider.png" class="mx-auto h-6" />
+      <img src="img/logos/the-new-york-times.png" class="mx-auto h-6" />
+      <img src="img/logos/forbes.png" class="mx-auto h-6" />
+      <img src="img/logos/usa-today.png" class="mx-auto h-6" />
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="py-24 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-8 text-center mb-16">
+    <span class="text-orange-500 font-semibold uppercase tracking-wide text-sm">
+      How it works
+    </span>
+    <h2 class="text-4xl font-bold mt-4">
+      Your daily dose of health in 3 simple steps
+    </h2>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
+
+    <!-- Step 1 -->
+    <div>
+      <p class="text-6xl font-bold text-gray-200">01</p>
+      <h3 class="text-2xl font-semibold mb-4">
+        Tell us what you like (and what not)
+      </h3>
+      <p class="text-gray-600">
+        Never again waste time thinking about what to eat! Omnifood AI creates
+        a 100% personalized weekly meal plan just for you.
+      </p>
+    </div>
+
+    <div class="relative flex justify-center">
+       <div class="absolute  w-60 h-60 bg-orange-100 rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+     
+      <img src="img/app/app-screen-1.png"
+          class="relative z-10 w-[188px] aspect-[188/380] mx-auto" />
+    </div>
+
+
+    <!-- Step 2 -->
+    <div class="relative flex justify-center">
+      <div class="absolute  w-60 h-60 bg-orange-100 rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+     
+      <img src="img/app/app-screen-2.png" 
+      class="relative z-10 w-[188px] aspect-[188/380] mx-auto" />
+    </div>
+
+    <div>
+      <p class="text-6xl font-bold text-gray-200">02</p>
+      <h3 class="text-2xl font-semibold mb-4">
+        Approve your weekly meal plan
+      </h3>
+      <p class="text-gray-600">
+        Approve or customize the generated meal plan. Swap meals,
+        change ingredients, or add your own recipes.
+      </p>
+    </div>
+
+    <!-- Step 3 -->
+    <div>
+      <p class="text-6xl font-bold text-gray-200">03</p>
+      <h3 class="text-2xl font-semibold mb-4">
+        Receive meals at convenient time
+      </h3>
+      <p class="text-gray-600">
+        Best chefs cook your selected meal every day,
+        delivered whenever works best for you.
+      </p>
+    </div>
+
+    <div class="relative flex justify-center">
+       <div class="absolute  w-60 h-60 bg-orange-100 rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+     
+      <img src="img/app/app-screen-3.png"
+      class="relative z-10 w-[188px] aspect-[188/380] mx-auto" />
+    </div>
+
+  </div>
+</section>
+
+<section id="meals" class="py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-6 text-center mb-16">
+    <span class="text-orange-500 font-semibold uppercase tracking-wider">
+      Meals
+    </span>
+    <h2 class="text-4xl font-bold mt-4">
+      Omnifood AI chooses from 5,000+ recipes
+    </h2>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+
+    <!-- Meal Card 1 -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+      <img src="img/meals/meal-1.jpg" class="w-full h-64 object-cover" />
+      <div class="p-6">
+        <span class="inline-block bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+          Vegetarian
+        </span>
+        <h3 class="text-xl font-semibold mb-4">Japanese Gyozas</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li class="flex items-center gap-2">
+            <ion-icon name="flame-outline"></ion-icon>
+            <span><strong>650</strong> calories</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <ion-icon name="restaurant-outline"></ion-icon>
+            <span>NutriScore <strong>74</strong></span>
+          </li>
+          <li class="flex items-center gap-2">
+            <ion-icon name="star-outline"></ion-icon>
+            <span><strong>4.9</strong> rating (537)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Meal Card 2 -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+      <img src="img/meals/meal-2.jpg" class="w-full h-64 object-cover" />
+      <div class="p-6">
+        <div class="flex gap-2 mb-3">
+          <span class="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
+            Vegan
+          </span>
+          <span class="bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1 rounded-full">
+            Paleo
+          </span>
+        </div>
+        <h3 class="text-xl font-semibold mb-4">Avocado Salad</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li class="flex items-center gap-2">
+            <ion-icon name="flame-outline"></ion-icon>
+            <span><strong>400</strong> calories</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <ion-icon name="restaurant-outline"></ion-icon>
+            <span>NutriScore <strong>92</strong></span>
+          </li>
+          <li class="flex items-center gap-2">
+            <ion-icon name="star-outline"></ion-icon>
+            <span><strong>4.8</strong> rating (441)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Diet List -->
+    <div>
+      <h3 class="text-xl font-semibold mb-6">Works with any diet:</h3>
+      <ul class="space-y-3 text-gray-600">
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Vegetarian
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Vegan
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Pescatarian
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Gluten-free
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Lactose-free
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Keto
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Paleo
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Low FODMAP
+        </li>
+        <li class="flex items-center gap-2">
+          <ion-icon name="checkmark-outline"></ion-icon> Kid-friendly
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="text-center mt-12">
+    <a href="#" class="text-orange-500 font-semibold hover:underline">
+      See all recipes →
+    </a>
+  </div>
+</section>
+
+<section id="testimonials" class="py-24 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6 mb-16">
+    <span class="text-orange-500 font-semibold uppercase tracking-wider">
+      Testimonials
+    </span>
+    <h2 class="text-4xl font-bold mt-4">
+      Once you try it, you can't go back
+    </h2>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+    
+    <!-- Testimonial -->
+    <figure class="bg-white p-8 rounded-2xl shadow-md">
+      <img src="img/customers/dave (1).jpg"
+           class="w-16 h-16 rounded-full mb-4 object-cover" />
+      <blockquote class="text-gray-600 mb-4">
+        Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.
+      </blockquote>
+      <p class="font-semibold">— Dave Bryson</p>
+    </figure>
+
+    <figure class="bg-white p-8 rounded-2xl shadow-md">
+      <img src="img/customers/ben.jpg"
+           class="w-16 h-16 rounded-full mb-4 object-cover" />
+      <blockquote class="text-gray-600 mb-4">
+        The AI algorithm is crazy good, it chooses the right meals for me every time.
+      </blockquote>
+      <p class="font-semibold">— Bane</p>
+    </figure>
+
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-6 bg-orange-50">
+    <!-- Testimonials -->
+     <div class="pt-28 pl-16" >
+      <div pb-5>
+        <p class="text-2xl text-orange-600 pb-5">Testimonials</p>
+        <h2 class="text-5xl font-bold pb-16">Once you try it, you can't go<br> back</h2>
+      </div>
+      <!-- reviews -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- review 1 -->
+          <div class="flex flex-col space-y-4">
+            <img src="img/customers/ben.jpg" alt="Dave Bryson" class="w-12 h-12 rounded-full" />
+            <p class="text-gray-700 leading-relaxed">
+              Inexpensive, healthy and great-tasting meals...
+            </p>
+            <p class="text-gray-600 italic">— Dave Bryson</p>
+          </div>
+          <!-- review 2 -->
+          <div class="flex flex-col space-y-4">
+            <img src="img/customers/dave (1).jpg" class=" rounded-full w-12 h-12">
+            <p class="text-gray-700 leading-7">
+              The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!            </p>
+            <p class="text-light text-gray-500 ">
+              _ Steve
+            </p>
+          </div>
+          <!-- review 3 -->
+          <div class="flex flex-col space-y-4">
+            <img src="img/customers/hannah.jpg" class=" rounded-full w-12 h-12">
+            <p class="text-gray-700 leading-7 pt-7">
+Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!            </p>
+            <p class="text-light text-gray-500 ">
+              _ Hannah
+            </p>
+          </div>
+          <!-- review 4 -->
+          <div>
+            <img src="img/customers/steve.jpg" class=" rounded-full w-12 h-12">
+            <p class="text-gray-700 leading-7 pt-7">
+              I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.            </p>
+            <p class="text-light text-gray-500 ">
+              _ Bane
+            </p>
+          </div>
+        </div>
+     </div>
+    
+      <!-- Gallery -->
+    <div class="w-full md:1/2 max-w-6xl mx-auto px-6 mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <img src="img/gallery/gallery-1.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-2.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-3.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-4.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-5.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-6.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-7.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-8.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-9.jpg" class="object-cover w-full aspect-square" />
+      <img src="img/gallery/gallery-10.jpg" class="object-cover w-full ascpect-square" />
+      <img src="img/gallery/gallery-11.jpg" class="object-cover w-full ascpect-square" />
+      <img src="img/gallery/gallery-12.jpg" class="object-cover w-full ascpect-square" />
+    </div>
+
+  </div>
+  
+</section>
+
+<!-- Pricing Section -->
+<div class="max-w-4xl mx-auto px-4 py-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+    <!-- Starter Plan -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
+      <div class="text-center mb-10">
+        <h3 class="text-lg font-bold text-orange-500 uppercase tracking-wider">Starter</h3>
+      </div>
+
+      <div class="text-center mb-12">
+        <span class="text-5xl font-black">$399</span>
+        <p class="text-gray-600 mt-2 mb-10">per month. That’s just $13 per meal!</p>
+      </div>
+
+      <ul class="space-y-4 mb-8">
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">1 meal per day</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">Order from 11am to 9pm</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">Delivery is free</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-gray-300 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-500 line-through">Get access to latest recipes</span>
+        </li>
+      </ul>
+
+      <div class="text-center">
+          <button class="w-3/4 py-3 mt-20 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition">
+            Start eating well
+          </button>
+      </div>
+    </div>
+
+    <!-- Complete Plan (Best Value) -->
+    <div class="relative bg-amber-50 rounded-xl border-2 p-6 shadow-sm hover:shadow-md transition-shadow">
+      <!-- Best Value Badge -->
+      <div class="absolute -top-3 -right-3 bg-yellow-400 text-xs font-bold text-gray-900 px-3 py-1 rounded-tr-lg rounded-bl-lg rotate-12">
+        BEST VALUE
+      </div>
+
+      <div class="text-center mb-12">
+        <h3 class="text-lg font-bold text-orange-500 uppercase tracking-wider">Complete</h3>
+      </div>
+
+      <div class="text-center mb-12">
+        <span class="text-5xl font-black">$649</span>
+        <p class="text-gray-600 mt-2 mb-10">per month. That’s just $11 per meal!</p>
+      </div>
+
+      <ul class="space-y-4 mb-8">
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">2 meals per day</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">Order 24/7</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">Delivery is free</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-gray-700">Get access to latest recipes</span>
+        </li>
+      </ul>
+      <div class="text-center">
+          <button class="w-3/4 py-3 mt-20 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition">
+            Start eating well
+          </button>
+      </div>
+      
+    </div>
+  </div>
+
+  <span class="text-center mt-10">Prices include all applicable taxes. You can cancel at any time. Both plans include the following:</span>
+</div>
+
+<!-- pros section -->
+<div class="max-w-6xl mx-auto px-4 py-12">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <!-- Feature 1 -->
+    <div class="text-center">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-orange-50 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 12l4.586-4.586a2 2 0 012.828 0L16 12a2 2 0 010 2.828l-4.586 4.586a2 2 0 01-2.828 0L4 12z" />
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Never cook again!</h3>
+      <p class="text-gray-600">
+        Our subscriptions cover 365 days per year, even including major holidays.
+      </p>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="text-center">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-orange-50 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13V5a2 2 0 100 4m0 13a2 2 0 100-4" />
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Local and organic</h3>
+      <p class="text-gray-600">
+        Our cooks only use local, fresh, and organic products to prepare your meals.
+      </p>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="text-center">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-orange-50 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">No waste</h3>
+      <p class="text-gray-600">
+        All our partners only use reusable containers to package all your meals.
+      </p>
+    </div>
+
+    <!-- Feature 4 -->
+    <div class="text-center">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-orange-50 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6m7 0v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2h14a2 2 0 012 2z" />
+        </svg>
+      </div>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Pause anytime</h3>
+      <p class="text-gray-600">
+        Going on vacation? Just pause your subscription, and we refund unused days.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- last section -->
+ <div class="max-w-4xl mx-auto px-4 py-12">
+  <div class="bg-orange-500 rounded-2xl overflow-hidden shadow-xl">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 p-6 lg:p-8">
+      <!-- Left: Form Content -->
+      <div class="flex flex-col justify-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Get your first meal for free!
+        </h2>
+        <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+          Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+        </p>
+
+        <form class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                placeholder="John Smith"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+              <input 
+                type="email" 
+                id="email" 
+                placeholder="me@example.com"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="source" class="block text-sm font-medium text-gray-700 mb-1">Where did you hear from us?</label>
+            <select 
+              id="source" 
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition appearance-none bg-white"
+            >
+              <option>Please choose one option:</option>
+              <option>Google</option>
+              <option>Social Media</option>
+              <option>Friend</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <button 
+            type="submit"
+            class="w-full py-3 px-6 bg-gray-900 hover:bg-gray-800 text-white font-semibold rounded-lg transition duration-300 transform hover:scale-[1.02]"
+          >
+            Sign up now
+          </button>
+        </form>
+      </div>
+
+      <!-- Right: Image -->
+      <div class="flex items-center justify-center">
+        <img 
+          src="img/customers/eating.jpg" 
+          alt="Woman enjoying healthy meal"
+          class="rounded-xl w-full max-w-md h-auto object-cover shadow-lg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
