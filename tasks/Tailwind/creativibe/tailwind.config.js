@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'delo': ['"Dela Gothic One"', 'cursive'],
+        delo: ['"Dela Gothic One"', "cursive"],
       },
     },
   },
-}
+};

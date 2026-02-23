@@ -4,31 +4,52 @@ export default function Header() {
     <header className="bg-transparent text-white p-4 absolute w-full z-50">
       {/* absolute positioning puts it ON TOP of hero */}
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">CreatiVibe</h1>
         <nav
-                className="
-                           
-                            top-0 left-0       /* left: 0px; top: 0px; */
-                            w-[1440px]         /* width: 1440px */
-                            h-[79px]           /* height: 79px */
-                            px-10              /* padding: 16px 40px (40px = 2.5rem = px-10) */
-                            py-4               /* 16px vertical padding */
-                            flex               /* display: flex */
-                            flex-row           /* flex-direction: row */
-                            items-center       /* align-items: center */
-                            gap-[142px]        /* gap: 142px (custom value) */
-                            bg-gradient-to-b   /* linear gradient */
-                            from-black/7.5     /* rgba(0,0,0,0.075) */
-                            to-black/25        /* rgba(0,0,0,0.25) */
-                            border-b           /* border-bottom */
-                            border-black/70    /* border color with opacity */
-                            border-[0.2px]     /* border width (custom thin border) */
-                            box-border         /* box-sizing: border-box */
+          className="
+                           position: absolute
+                            top-0 left-0       
+                            w-full mx-auto
+                            h-[79px]           
+                            px-10              
+                            py-4               
+                            flex                      
+                            items-center       
+                            gap-[142px]        
+                            bg-linear-to-b   
+                            from-black/7.5     
+                            to-black/25       
+                            border-b           
+                            border-black/70   
+                            border-[0.2px]    
+                            box-border         
                             "
         >
+          <h1
+            className="
+        text-2xl
+        font-bold
+        sm:h-[28px]
+        md:h-[32px]
+        lg:h-[36px] lg:w-[164px]
+        font-['Dela_Gothic_One'] text-[25px] leading-9
+        text-orange-500
+        flex-none
+        
+        "
+          >
+            CreatiVibe
+          </h1>
           <ul className="flex space-x-6">
-            <li><a href="#home" className="text-white hover:text-orange-500">Home</a></li>
-            <li><a href="#about" className="text-white hover:text-orange-500">About</a></li>
+            <li>
+              <a href="#home" className="text-white hover:text-orange-500">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="text-white hover:text-orange-500">
+                About
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

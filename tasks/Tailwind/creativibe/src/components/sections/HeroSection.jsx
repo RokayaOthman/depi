@@ -1,4 +1,4 @@
-import heroImg from '../../assets/hero-bg.jpg';
+import heroImg from "../../assets/hero-bg.jpg";
 
 export default function HeroSection() {
   return (
@@ -8,7 +8,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImg})` }}
       ></div>
-      
+
       {/* Gradient Overlay Layer */}
       <div className="absolute inset-0 bg-linear-to-l from-black/25 via-black/65 to-black/85"></div>
 
