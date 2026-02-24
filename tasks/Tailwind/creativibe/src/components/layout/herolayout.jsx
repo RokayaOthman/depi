@@ -2,7 +2,7 @@
 import heroImg from "../../assets/hero-bg.jpg";
 import Header from "../layout/header";
 import HeroSection from "../sections/HeroSection";
-
+  
 export default function HeroLayout({ children }) {
   return (
     <div className="relative min-h-screen">
