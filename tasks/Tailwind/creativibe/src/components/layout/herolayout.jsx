@@ -1,10 +1,11 @@
-// sr/components/layout/HeroLayout.jsx
-import Header from "./header";
+// This file renders : bg-img , header , heroSection 
 import heroImg from "../../assets/hero-bg.jpg";
+import Header from "../layout/header";
+import HeroSection from "../sections/HeroSection";
 
 export default function HeroLayout({ children }) {
   return (
-    <div className="relative">
+    <div className="relative min-h-screen">
       {/* Background spans both header and hero */}
       <div
         className="absolute 
@@ -25,9 +26,12 @@ export default function HeroLayout({ children }) {
 
       {/* Header with transparent background */}
       <Header transparent={true} />
-
+      
       {/* Hero content */}
-      <div className="relative z-10 pt-32 pb-20">{children}</div>
+      <div className="relative z-10">
+         <HeroSection />
+        {children}
+        </div>
     </div>
   );
 }

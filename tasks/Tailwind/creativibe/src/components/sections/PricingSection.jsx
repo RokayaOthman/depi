@@ -1,25 +1,28 @@
 export default function PricingSection() {
   const plans = [
     {
-      title: "Hot Desk",
+      title: "Hot Desk Membership",
       price: "$250/mo",
       features: ["High-speed internet", "Coffee included", "Community access"],
     },
     {
-      title: "Dedicated",
+      title: "Dedicated Membership",
       price: "$400/mo",
       features: ["Private locker", "24/7 Access", "Meeting room credits"],
     },
     {
-      title: "Private Office",
+      title: "Private Office Membership",
       price: "$800/mo",
       features: ["Lockable door", "Team seating", "Mail handling"],
     },
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-20">
+        <div className="w-full h-50 bg-olive-50 flex justify-center align-center">
+              <span className="text-orange-500 text-3xl items-center">From dedicated desks to private offices, find the space that fits your work style.</span>
+        </div>
+      <div className="w-full bg-gray-100 container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
           Membership Plans
         </h2>

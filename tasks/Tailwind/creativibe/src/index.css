@@ -1,4 +1,21 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@400;700&display=swap');/* Global Styles File */
+
+@layer components {
+  .custom-padding {
+    @apply pt-[10px] pb-[10px] pl-[24px] pr-[24px];
+    
+    @screen md {
+      @apply pt-[12px] pb-[12px] pl-[32px] pr-[32px];
+    }
+    
+    @screen lg {
+      @apply pt-[14px] pb-[14px] pl-[40px] pr-[40px];
+    }
+  }
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -7,8 +24,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
