@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 81 - 90
+============================================================
+
+Problem 81
+----------------------------------------
+Function Name: WhatIsBetween
+Description: Return array from a to b inclusive
+
+Problem 82
+----------------------------------------
+Function Name: DebugSayHello
+Description: Fix function to return Hello <name>
+
+Problem 83
+----------------------------------------
+Function Name: TerminalGameMove
+Description: Return new position: position + 2 × roll
+
+Problem 84
+----------------------------------------
+Function Name: NthPower
+Description: Return array[n]ⁿ or -1 if out of bounds
+
+Problem 85
+----------------------------------------
+Function Name: MessiGoals
+Description: Sum all goals
+
+Problem 86
+----------------------------------------
+Function Name: StringyStrings
+Description: Return alternating 1s and 0s of given size
+
+Problem 87
+----------------------------------------
+Function Name: FindMultiples
+Description: Return multiples of n up to limit
+
+Problem 88
+----------------------------------------
+Function Name: RemoveDuplicates
+Description: Remove duplicate values from an array
+
+Problem 89
+----------------------------------------
+Function Name: SumOfMultiples
+Description: Sum of numbers < n divisible by 3 or 5
+
+Problem 90
+----------------------------------------
+Function Name: NameOnBillboard
+Description: Return cost based on price per character
+

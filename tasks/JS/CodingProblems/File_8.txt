@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 71 - 80
+============================================================
+
+Problem 71
+----------------------------------------
+Function Name: HowGoodAreYou
+Description: Return true if your score is higher than class average
+
+Problem 72
+----------------------------------------
+Function Name: ReverseWordsOrder
+Description: Reverse the order of words in a string
+
+Problem 73
+----------------------------------------
+Function Name: CalculateBMI
+Description: Return BMI category based on calculation
+
+Problem 74
+----------------------------------------
+Function Name: FindDivisibleNumbers
+Description: Return numbers divisible by given divisor
+
+Problem 75
+----------------------------------------
+Function Name: PowersOfTwo
+Description: Return array of 2⁰ to 2ⁿ
+
+Problem 76
+----------------------------------------
+Function Name: SumTheStrings
+Description: Return sum of two numbers represented as strings
+
+Problem 77
+----------------------------------------
+Function Name: SortAndStar
+Description: Sort array and return first element with *** between chars
+
+Problem 78
+----------------------------------------
+Function Name: ExpressionsMatter
+Description: Return maximum value by adding/multiplying 3 numbers
+
+Problem 79
+----------------------------------------
+Function Name: IsItEven
+Description: Return true if number is even
+
+Problem 80
+----------------------------------------
+Function Name: FilterOutGeese
+Description: Remove all geese from a list of birds
+

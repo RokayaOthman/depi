@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 51 - 60
+============================================================
+
+Problem 51
+----------------------------------------
+Function Name: RemoveFirstLastChar
+Description: Remove the first and last characters of a string
+
+Problem 52
+----------------------------------------
+Function Name: SquareNSum
+Description: Square each number and return the sum
+
+Problem 53
+----------------------------------------
+Function Name: FindSmallestInt
+Description: Return the smallest value in an array
+
+Problem 54
+----------------------------------------
+Function Name: IsDivisible
+Description: Return true if n is divisible by both x and y
+
+Problem 55
+----------------------------------------
+Function Name: LostWithoutMap
+Description: Return an array with each value doubled
+
+Problem 56
+----------------------------------------
+Function Name: FakeBinary
+Description: Convert digits < 5 to '0', others to '1'
+
+Problem 57
+----------------------------------------
+Function Name: SumArrays
+Description: Return the sum of all values in an array
+
+Problem 58
+----------------------------------------
+Function Name: SimpleMultiplication
+Description: If number is even, multiply by 8; else by 9
+
+Problem 59
+----------------------------------------
+Function Name: MakeUpperCase
+Description: Convert a string to all uppercase letters
+
+Problem 60
+----------------------------------------
+Function Name: ArrayPlusArray
+Description: Add values from two arrays and return the total
+

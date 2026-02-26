@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 21 - 30
+============================================================
+
+Problem 21
+----------------------------------------
+Function Name: NumberToString
+Description: Turn a number into a string
+
+Problem 22
+----------------------------------------
+Function Name: CalculateAverage
+Description: Return the average of numbers in an array
+
+Problem 23
+----------------------------------------
+Function Name: StringToNumber
+Description: Turn a string into a number
+
+Problem 24
+----------------------------------------
+Function Name: CountMonkeys
+Description: Given a number n, return an array from 1 to n
+
+Problem 25
+----------------------------------------
+Function Name: Welcome
+Description: Return a personalized welcome message
+
+Problem 26
+----------------------------------------
+Function Name: SentenceSmash
+Description: Combine an array of words into one sentence
+
+Problem 27
+----------------------------------------
+Function Name: SwitchItUp
+Description: Convert a digit (0-9) to its word
+
+Problem 28
+----------------------------------------
+Function Name: DoIGetABonus
+Description: If bonus is true, salary × 10; else just salary
+
+Problem 29
+----------------------------------------
+Function Name: RemoveExclamationMarks
+Description: Remove all exclamation marks from a string
+
+Problem 30
+----------------------------------------
+Function Name: AreYouPlayingBanjo
+Description: If name starts with 'R' or 'r', return 'plays banjo'
+

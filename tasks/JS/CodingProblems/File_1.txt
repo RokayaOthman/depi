@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 1 - 10
+============================================================
+
+Problem 1
+----------------------------------------
+Function Name: EvenOrOdd
+Description: Determine whether a number is even or odd
+
+Problem 2
+----------------------------------------
+Function Name: SumOfPositives
+Description: Calculate the sum of all positive numbers in an array
+
+Problem 3
+----------------------------------------
+Function Name: SumWithoutHighestLowest
+Description: Return the sum of all numbers excluding the highest and lowest
+
+Problem 4
+----------------------------------------
+Function Name: StringRepeat
+Description: Repeat a given string a specified number of times
+
+Problem 5
+----------------------------------------
+Function Name: NumberToReversedArray
+Description: Turn a number into a reversed array of digits
+
+Problem 6
+----------------------------------------
+Function Name: CountingSheep
+Description: Count how many true values are in an array
+
+Problem 7
+----------------------------------------
+Function Name: GetOpposite
+Description: Return the opposite of a number
+
+Problem 8
+----------------------------------------
+Function Name: ReturnNegative
+Description: Always return a negative number
+
+Problem 9
+----------------------------------------
+Function Name: JennysSecret
+Description: Special greeting if the name is 'Johnny'
+
+Problem 10
+----------------------------------------
+Function Name: NeedleInHaystack
+Description: Find the word 'needle' in an array and return its index
+

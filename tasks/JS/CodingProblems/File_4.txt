@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 31 - 40
+============================================================
+
+Problem 31
+----------------------------------------
+Function Name: RemoveFirstElement
+Description: Remove the first element from the array and return the rest
+
+Problem 32
+----------------------------------------
+Function Name: UnfinishedLoop
+Description: Create a loop that counts from 1 to n
+
+Problem 33
+----------------------------------------
+Function Name: TransportationOnVacation
+Description: Calculate the cost of car rental with discounts
+
+Problem 34
+----------------------------------------
+Function Name: ExclusiveXOR
+Description: Return true if exactly one of the two inputs is true
+
+Problem 35
+----------------------------------------
+Function Name: FindFirstNonConsecutive
+Description: Find the first number that is not +1 from the previous
+
+Problem 36
+----------------------------------------
+Function Name: VolumeOfCuboid
+Description: Return the volume given length, width, and height
+
+Problem 37
+----------------------------------------
+Function Name: FormatToDecimalPlaces
+Description: Format a number to 2 decimal places
+
+Problem 38
+----------------------------------------
+Function Name: DollarsAndCents
+Description: Format a number as .xx
+
+Problem 39
+----------------------------------------
+Function Name: FindLetterPosition
+Description: Given a letter, return its position in the alphabet
+
+Problem 40
+----------------------------------------
+Function Name: OppositesAttract
+Description: If one is even and the other is odd, return true
+

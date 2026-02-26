@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 11 - 20
+============================================================
+
+Problem 11
+----------------------------------------
+Function Name: CountPositivesSumNegatives
+Description: Return an array: [count of positives, sum of negatives]
+
+Problem 12
+----------------------------------------
+Function Name: DoubleChar
+Description: Return a string where every character is doubled
+
+Problem 13
+----------------------------------------
+Function Name: BasicMathOperations
+Description: Perform +, -, *, or / on two numbers
+
+Problem 14
+----------------------------------------
+Function Name: ToSquareRootOrNot
+Description: Replace each number with its square root if perfect square; otherwise square it
+
+Problem 15
+----------------------------------------
+Function Name: CountByX
+Description: Return the first n multiples of x
+
+Problem 16
+----------------------------------------
+Function Name: RemoveStringSpaces
+Description: Remove all spaces from a string
+
+Problem 17
+----------------------------------------
+Function Name: InvertValues
+Description: Return an array with all values inverted in sign
+
+Problem 18
+----------------------------------------
+Function Name: BooleanToString
+Description: Convert true to 'Yes' and false to 'No'
+
+Problem 19
+----------------------------------------
+Function Name: ReverseWords
+Description: Reverse the order of words in a sentence
+
+Problem 20
+----------------------------------------
+Function Name: KeepHydrated
+Description: Return how many liters of water Nathan drinks
+

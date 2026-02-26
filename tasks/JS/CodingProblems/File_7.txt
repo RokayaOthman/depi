@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 61 - 70
+============================================================
+
+Problem 61
+----------------------------------------
+Function Name: SumMixedArray
+Description: Sum an array of numbers represented as strings and numbers
+
+Problem 62
+----------------------------------------
+Function Name: FeastOfBeasts
+Description: Return true if first/last letter of animal matches dish
+
+Problem 63
+----------------------------------------
+Function Name: TrafficLight
+Description: Given a color, return the next traffic light color
+
+Problem 64
+----------------------------------------
+Function Name: SetAlarm
+Description: Return true if employed and not on vacation
+
+Problem 65
+----------------------------------------
+Function Name: QuarterOfYear
+Description: Return which quarter of the year the month falls in
+
+Problem 66
+----------------------------------------
+Function Name: AddLength
+Description: Return each word in an array with its length added
+
+Problem 67
+----------------------------------------
+Function Name: HowManyLightsabers
+Description: Only Zach owns 18 lightsabers
+
+Problem 68
+----------------------------------------
+Function Name: TwiceAsOld
+Description: Return when father was/will be twice as old as son
+
+Problem 69
+----------------------------------------
+Function Name: KeepUpTheHoop
+Description: If n ≥ 10, return Great, else Keep at it
+
+Problem 70
+----------------------------------------
+Function Name: CharacterRecognition
+Description: Fix OCR errors: replace 5→S, 0→O, 1→I
+

@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 41 - 50
+============================================================
+
+Problem 41
+----------------------------------------
+Function Name: NoZerosForHeroes
+Description: Remove trailing zeros from a number
+
+Problem 42
+----------------------------------------
+Function Name: GetArrayMean
+Description: Return the average of the array elements
+
+Problem 43
+----------------------------------------
+Function Name: VowelRemover
+Description: Remove all vowels from a string
+
+Problem 44
+----------------------------------------
+Function Name: RemoveExclamationMarks2
+Description: Remove all ! from a string
+
+Problem 45
+----------------------------------------
+Function Name: ReverseString
+Description: Reverse the characters in a string
+
+Problem 46
+----------------------------------------
+Function Name: ReduceButGrow
+Description: Multiply all elements in the array
+
+Problem 47
+----------------------------------------
+Function Name: IsPalindrome
+Description: Return true if the string reads the same backward
+
+Problem 48
+----------------------------------------
+Function Name: GrasshopperSummation
+Description: Return the sum from 1 to n
+
+Problem 49
+----------------------------------------
+Function Name: PrintArrayWithCommas
+Description: Return array elements as a string joined by commas
+
+Problem 50
+----------------------------------------
+Function Name: HowManyStairs
+Description: Sum nested array of stairs climbed per day
+

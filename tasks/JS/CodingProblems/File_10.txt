@@ -1,0 +1,54 @@
+﻿============================================================
+PROBLEMS 91 - 100
+============================================================
+
+Problem 91
+----------------------------------------
+Function Name: WelcomeToCity
+Description: Return formatted welcome message with city name
+
+Problem 92
+----------------------------------------
+Function Name: RemoveFirstLastCharPartTwo
+Description: Remove first/last chars from every string in array
+
+Problem 93
+----------------------------------------
+Function Name: LarioAndMuigiPipe
+Description: Return array of consecutive numbers from a to b
+
+Problem 94
+----------------------------------------
+Function Name: ParseNiceInt
+Description: Convert string like '5 years old' to 5
+
+Problem 95
+----------------------------------------
+Function Name: CheckForFactor
+Description: Return true if factor divides base
+
+Problem 96
+----------------------------------------
+Function Name: WillThereBeEnoughSpace
+Description: Return people who can't get on bus
+
+Problem 97
+----------------------------------------
+Function Name: PersonalizedMessage
+Description: Return Hello boss if name matches owner
+
+Problem 98
+----------------------------------------
+Function Name: AreaOrPerimeter
+Description: Return area if square, perimeter if rectangle
+
+Problem 99
+----------------------------------------
+Function Name: WellOfIdeas
+Description: Return result based on how many 'good' in array
+
+Problem 100
+----------------------------------------
+Function Name: FinalProblem
+Description: Complete the final coding challenge
+
