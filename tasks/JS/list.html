@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="input-field">
+<button onclick="add()">Add</button>
+<ul id="list"></ul>
+
+<script>
+const listitem = document.getElementById("list");
+const inputField = document.getElementById("input-field");
+
+function add() {
+    listitem.innerHTML += `<li>${inputField.value}</li>`;
+    inputField.value = "";
+}
+</script>
+
+</body>
+</html>

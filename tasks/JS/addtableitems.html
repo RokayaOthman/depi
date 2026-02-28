@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="Enter name">
+    <input type="number" id="age" placeholder="Enter age">
+    <button onclick="addRow()">Add</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        function addRow() {
+            const name = document.getElementById("name").value;
+            const age = document.getElementById("age").value;
+            document.getElementById("tableBody").innerHTML += `
+                <tr>
+                    <td>${name}</td>
+                    <td>${age}</td>
+                </tr>
+            `;
+
+            document.getElementById("name").value = "";
+            document.getElementById("age").value = "";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <input type="text" id="textInput" placeholder="Text">
+    <h2 id="display"></h2>
+    <button onclick="add()">Click!</button>
+    
+    <script>
+        const inputValue = document.getElementById('textInput').value;
+        const display =  document.getElementById('display');
+        function add() {
+           display.textContent = "Hello " + inputValue
+        }
+        
+        
+    </script>
+</body>
+</html>
