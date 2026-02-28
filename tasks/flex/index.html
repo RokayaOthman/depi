@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +12,10 @@
 </head>
 <body>
     <header>
-        <div class="logo">Food empire</div>
+        <div class="logo">
+            <div class="food">Food</div>
+            <div class="empire">Empire</div>
+        </div>
         <div class="links">
             <div>Favoutite Fruits</div>
             <div>Fruit Shop</div>
@@ -21,26 +26,28 @@
         </div>
     </header>
     <div class="container">
-        <div class="yellow-card">
-            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        <div class="yellow-card"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i> </div>
+        <div class="hero-content">
+            <div class="first-small-paragraph">
+            <h4 class="ananas">Ananas</h4>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+
+            <!-- <img src="assets/images/bigAnanas.png" alt="pineapple" class="pinapple"> -->
+            
+            <div class="second-small-paragraph">
+            <h1 class="fruit-delivery">Fruit<br>Delivery</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
-        <div class="small-paragraph">
-            <h4>Ananas</h4>
-            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
-        </div>
-        <img src="pinapple-removebg-preview.png" alt="pinapple" height="800" width="400">
-        <div class="small-paragraph fruit-delivery">
-            <h1>Fruit Delivery</h1>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sed dolorem dolores similique illum debitis quidem explicabo repudiandae delectus molestiae consequuntur iure cumque ut nisi accusamus optio tempore. Ut, ab.</div>
-        </div>
-        
     </div>
+
+  
+</div>
+
     
     <div class="first-cards">
             <div class="card orange">
-                <img src="oranges (1).png" alt="orange" height="100">
+                <img src="assets/images/firstOranges.jpg" alt="orange">
                 <div class="info">
                     <div>
                     <h3>Orange</h3>
@@ -55,7 +62,7 @@
                 </div>
             </div>
             <div class="card melon">
-                <img src="melons.jpg" alt="melon" height="100">
+                <img src="assets/images/melons.jpg" alt="melon">
                 <div class="info">
                     <div>
                         <h3>Melon</h3>
@@ -74,10 +81,10 @@
         <h2>Favourite Fruits</h2>
         <div class="second-cards">
             <div class="card-one">
-                <img src="banana.jpg" alt="banana">
+                <img src="assets/images/firstBanana.jpg" alt="banana">
                 <h3>Banana</h3>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptate odit! Soluta perferendis doloremque debitis, aperiam tempora enim vitae nostrum accusamus aliquid error earum impedit, et cupiditate sit! Cumque, dolorem!</div>
-                <h2>39$</h2>
+                <div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
+                <h2 class="price">39$</h2>
                 <div class="counter-container">
                     <div>
                         <button class="counter-btn">-</button>
@@ -89,10 +96,10 @@
                 </div>
             </div>
             <div class="card-two">
-                <img src="oranges.jpg" alt="orange">
+                <img src="assets/images/secondOrange.jpg" alt="orange">
                 <h3>Orange</h3>
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, alias porro adipisci incidunt culpa atque optio fugit omnis id excepturi, ducimus quos pariatur tenetur odio magni a veniam repellendus maiores!</div>
-                <h2>20$</h2>
+                <div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
+                <h2 class="price">20$</h2>
                 <div class="counter-container">
                     <div>
                         <button class="counter-btn">-</button>
@@ -104,10 +111,10 @@
                 
             </div>
             <div class="card-three">
-                <img src="pinapple-blue.jpg" alt="pinapple">
+                <img src="assets/images/smallAnanas.jpg" alt="pinapple">
                 <h3>Pinapple</h3>
-                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id illum vel debitis eius nihil, iusto, ex ducimus cumque odit nulla illo error aliquid eligendi consectetur, ipsam est velit ullam a.</div>
-                <h2>80$</h2>
+                <div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
+                <h2 class="price">80$</h2>
                  <div class="counter-container">
                     <div>
                         <button class="counter-btn">-</button>
@@ -119,10 +126,10 @@
             
             </div>
             <div class="card-four">
-                <img src="apples.jpg" alt="apples" height="150px">
+                <img src="assets/images/apples.jpg" alt="apples" height="150px">
                 <h3>Apple</h3>
-                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quod fugit quae incidunt itaque totam dolores? Necessitatibus corporis cum illum a earum! Corrupti numquam accusantium consequuntur, architecto pariatur fugit quod!  </div>
-                <h2>65$</h2>
+                <div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
+                <h2 class="price">65$</h2>
                  <div class="counter-container">
                     <div>
                         <button class="counter-btn">-</button>
@@ -190,8 +197,8 @@
     <div class="newsletter">
         <h2>Subscribe To Newsletter</h2>
         <form class="newsletter-form">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Join</button>
+            <input type="email" placeholder="Join" required>
+            <button type="submit">Subscribe</button>
         </form>
          <div class="social-media">
                 <h3>Social Media</h3>
@@ -205,7 +212,11 @@
     </div>
 
      <footer>
-                <h2>Food <span>Empire</span></h2>
+                <div class="logo">
+            <div class="food">Food</div>
+            
+            <div class="empire">Empire</div>
+        </div>
            
             
            

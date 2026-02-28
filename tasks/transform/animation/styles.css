@@ -1,0 +1,30 @@
+div {
+    margin-top:10px ;
+    background-color: rgb(174, 99, 99);
+    animation-name: move;
+    width: 200px;
+    height: 200px;
+    animation-duration: 4s;
+    animation-iteration-count: 30;
+}
+
+@keyframes move {
+    0% {
+        translate: 0 0 ;
+    }
+
+    25% {
+        translate: 400px 0;
+    }
+
+    50% {
+        translate: 400px 400px;
+    }
+
+    75% {
+        translate: 0 400px ;
+    }
+    100% {
+        translate: 0 0 ;
+    }
+}

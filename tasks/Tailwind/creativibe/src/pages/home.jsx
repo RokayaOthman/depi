@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <HeroLayout></HeroLayout>
-     <PricingSection></PricingSection>
-     <GallerySection />
+      <PricingSection></PricingSection>
+      <GallerySection />
       <AboutSection />
     </>
   );

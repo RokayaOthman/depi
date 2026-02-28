@@ -1,49 +1,49 @@
 import aboutImage from "../../assets/about-us.jpg";
+
 export default function AboutSection() {
   return (
     <section className="w-full h-[657px] bg-white relative">
-            {/* Main container - centered */}
-            <div className="
-            bg-gray-100
-                absolute 
-                left-1/2 -translate-x-1/2
-                top-16
-                w-[1264px] h-[529px]
-                flex flex-row
-                items-center
-                gap-[104px]
-            ">
-                {/* Left side - Image with overlay effect */}
-                
-            
-        {/* Orange background layer - slightly offset */}
-                 <div className="
-                    absolute 
-                    top-1 left-1
-                    md:top-2 md:left-2
-                    w-[330px] h-[305px]
-                    md:w-[550px] md:h-[510px]
-                    bg-orange-500 
-                    rounded-lg
-                "></div>  
-        {/* Image */}
-                <div 
-                    className="
-                    absolute 
-                    w-[330px] h-[305px]
-                    md:w-[550px] md:h-[510px]
-                    bg-cover bg-center
-                    rounded-lg
-                    " 
-                    style={{ backgroundImage: `url(${aboutImage})` }}>
-                </div>
+      {/* Main container - centered */}
+      <div className="
+          bg-gray-100
+          absolute 
+          left-1/2 -translate-x-1/2
+          top-16
+          w-[1264px] h-[529px]
+          flex flex-row
+          items-center
+          gap-[104px]
+      ">
+        {/* Left side - Image with overlay effect */}
+        <div className="relative w-[550px] h-[510px]">
+          {/* Orange background layer - slightly offset */}
+          <div className="
+            absolute 
+            top-4 left-4
+            w-[550px] h-[510px]
+            bg-orange-500 
+            rounded-lg
+          "></div>  
+          
+          {/* Image */}
+          <div 
+            className="
+              absolute 
+              top-0 left-0
+              w-[550px] h-[510px]
+              bg-cover bg-center
+              rounded-lg
+            " 
+            style={{ backgroundImage: `url(${aboutImage})` }}>
+          </div>
+        </div>
 
-                {/* Right side - Text content - same as above */}
-                  <div className="
+        {/* Right side - Text content */}
+        <div className="
           flex flex-col items-start 
           gap-6 md:gap-8 
-          w-full md:w-[589px] 
-          h-auto md:h-[516px]
+          w-[589px] 
+          h-[516px]
         ">
           {/* About Us title */}
           <h2 className="
@@ -58,7 +58,6 @@ export default function AboutSection() {
 
           {/* Content sections */}
           <div className="flex flex-col items-start gap-6 md:gap-8 w-full">
-            
             {/* Mission Statement */}
             <div className="flex flex-col items-start gap-1 md:gap-2 w-full">
               <h3 className="
@@ -118,7 +117,7 @@ export default function AboutSection() {
             </div>
           </div>
         </div>  
-            </div>
+      </div>  
     </section>
   );
 }
