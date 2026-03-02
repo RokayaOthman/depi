@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="color" id="color-picker">
+    <h2>Selected Color : <span id="color-value"></span></h2>
+    <script>
+        const colorpicker = document.getElementById('color-picker')
+        const colorvalue = document.getElementById('color-value')
+
+        colorpicker.addEventListener('input', function() {
+            colorvalue.textContent = this.value;
+            colorvalue.style.color = this.value;
+        })
+    </script>
+</body>
+</html>

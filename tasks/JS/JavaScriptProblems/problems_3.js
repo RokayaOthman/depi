@@ -56,51 +56,48 @@ function countMonkeys(n) {
 }
 
 // Example usage:
-console.log(countMonkeys(5));
+// console.log(countMonkeys(5));
 
 // --------------------------------------------
 
 // Problem 25: Return a personalized welcome message
 function welcome(lang) {
-    // TODO: Implement this function
-    // Your code here
-    
+    return `welcome ${lang}`;  
 }
 
 // Example usage:
-// console.log(welcome());
+// console.log(welcome("roka"));
 
 // --------------------------------------------
 
 // Problem 26: Combine an array of words into one sentence
 function sentenceSmash(words) {
-    // TODO: Implement this function
-    // Your code here
+    return words.join(' ');
     
 }
 
 // Example usage:
-// console.log(sentenceSmash());
+//  console.log(sentenceSmash(["one", "two", "three"]));
 
 // --------------------------------------------
 
 // Problem 27: Convert a digit (0-9) to its word
 function switchItUp(digit) {
-    // TODO: Implement this function
-    // Your code here
+    return digit.toString();
     
 }
 
 // Example usage:
-// console.log(switchItUp());
+// console.log(switchItUp(5));
 
 // --------------------------------------------
 
 // Problem 28: If bonus is true, salary × 10; else just salary
 function doIGetABonus(salary, bonus) {
-    // TODO: Implement this function
-    // Your code here
-    
+    if(bonus) {
+        salary *= 10;
+    }
+    return salary;
 }
 
 // Example usage:
@@ -110,24 +107,27 @@ function doIGetABonus(salary, bonus) {
 
 // Problem 29: Remove all exclamation marks from a string
 function removeExclamationMarks(str) {
-    // TODO: Implement this function
-    // Your code here
-    
+    let res = '';
+    for (let i = 0 ; i  < str.length; i++) {
+        if(str[i] !== '!') res += str[i];
+    }
+   // return res;
+
+    return str?.replaceAll('!','') || '';
 }
 
 // Example usage:
-// console.log(removeExclamationMarks());
+//console.log(removeExclamationMarks("ro!!!ka!ya"));
 
 // --------------------------------------------
 
 // Problem 30: If name starts with 'R' or 'r', return 'plays banjo'
 function areYouPlayingBanjo(name) {
-    // TODO: Implement this function
-    // Your code here
+   return (name[0] === 'R' || name[0] === 'r') ? 'plays banjo' : '';
     
 }
 
 // Example usage:
-// console.log(areYouPlayingBanjo());
+console.log(areYouPlayingBanjo('Rokaya'));
 
 // --------------------------------------------

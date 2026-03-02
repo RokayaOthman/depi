@@ -41,13 +41,12 @@ function trafficLight(current) {
 
 // Problem 64: Return true if employed and not on vacation
 function setAlarm(employed, vacation) {
-    // TODO: Implement this function
-    // Your code here
+    return(employed && !vacation);
     
 }
 
 // Example usage:
-// console.log(setAlarm());
+// console.log(setAlarm(1,0));
 
 // --------------------------------------------
 
