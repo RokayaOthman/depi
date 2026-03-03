@@ -1,6 +1,6 @@
 //import React from 'react';
 import Header from '../components/layouts/header';
-//import Hero from '../components/sections/Hero';
+import Hero from '../components/sections/hero';
 //import styles from './HomePage.module.css';
 
 const HomePage = () => {
@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
       <Header />
       <main>
-        {/* <Hero /> */}
+        <Hero />
         {/* Future sections will go here */}
       </main>
     </div>

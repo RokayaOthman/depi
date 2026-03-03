@@ -2,8 +2,8 @@ const Header = () => {
   return (
     <>
       {/* Navbar */}
-      <div className="fixed top-0 left-0 w-full z-50">
-        <div className="bg-[#2C2E33] px-10 py-6 z-50">
+      <div className="w-full bg-[#2C2E33]">
+        <div className="max-w-7xl mx-auto px-10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4 md:gap-8">
             {/* Logo */}
             <div className="flex flex-col items-center w-[119px]">

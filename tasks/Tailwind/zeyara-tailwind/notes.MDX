@@ -1,0 +1,32 @@
+ <ul className="flex flex-row list-none m-0 p-0 gap-16 justify-center md:justify-start">
+
+
+
+
+
+
+
+                {["Home", "Products", "Cart", "About", "Contact Us"].map(
+                  (link) => (
+                    <li key={link}>
+                      <a
+                        href="/"
+                        className="font-poppins font-normal text-[20px] text-white no-underline hover:text-gray-300 transition"
+                      >
+                        {link}
+                      </a>
+                    </li>
+                  ),
+                )}
+              </ul>
+
+---
+- <span> — inline text styling </span>
+
+Purpose: Apply styles or scripts to part of text without implying structure.
+
+<h1>My Blog</h1> -- main title -->
+<h2>Recipes</h2> -- section -->
+<h3>Cake Recipes</h3> -- subsection -->
+
+
