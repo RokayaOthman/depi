@@ -94,7 +94,7 @@ const ProductCard = ({ className }) => {
       <button
         key={item.name}
         aria-label={item.name}
-        className={`w-8 h-8 rounded transition-all 
+        className={`w-8 h-8 rounded-full transition-all 
           ${item.active ? "ring-2 ring-offset-2 ring-gray-900 scale-110" : "hover:scale-110"}`}
         style={{
           backgroundColor: item.color.startsWith("#") ? item.color : undefined,
