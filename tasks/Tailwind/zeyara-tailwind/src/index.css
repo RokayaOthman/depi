@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .thumbnail-swiper .swiper-slide-thumb-active div {
-  border: 3px solid #4f46e5; /* example purple border */
+  border: 5px solid #fca33c; /* example purple border */
   box-sizing: border-box;
 }
 
