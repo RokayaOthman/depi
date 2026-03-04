@@ -16,6 +16,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.thumbnail-swiper .swiper-slide-thumb-active div {
+  border: 3px solid #4f46e5; /* example purple border */
+  box-sizing: border-box;
+}
 
 @theme {
   --font-poppins: 'Poppins', system-ui, sans-serif;
@@ -30,10 +34,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;

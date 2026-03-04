@@ -7,7 +7,7 @@ const Header = () => {
           <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4 md:gap-8">
             {/* Logo */}
             <div className="flex flex-col items-center w-[119px]">
-              <h1 className="font-['jsMath-cmbx10'] font-bold text-2xl text-white">
+              <h1 className="font-['jsMath-cmbx10'] font-bold text-4xl text-white">
                 Zeyara
               </h1>
               <span className="font-['Poly'] text-sm text-white ">Online</span>
@@ -44,13 +44,17 @@ const Header = () => {
         </div>
         {/* Push content down so header doesn't cover search bar */}
         <div className="bg-[#DFD2CA] py-6">
-          <div className="flex justify-end px-4 mr-20">
+          <div className="flex justify-content-center md:justify-end px-4 mr-20">
             <div className="bg-[#FFFF] rounded shadow-md h-[40px] flex items-center px-4">
-              <div className="mr-2 text-gray-500">🔍</div>
+              {/* <div className="mr-2 text-gray-500">🔍</div> */}
+              <i
+                className="fa-solid fa-magnifying-glass"
+                style={{ color: "rgb(187, 193, 205)" }}
+              />
               <input
                 type="text"
                 placeholder="Search"
-                className="w-120 bg-transparent focus:outline-none text-gray-700"
+                className="ml-4 w-120 bg-transparent focus:outline-none text-gray-700"
               />
             </div>
           </div>
