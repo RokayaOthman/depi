@@ -25,13 +25,14 @@ export default function ProductGallery() {
         navigation
         thumbs={{ swiper: thumbsSwiper }}
         className="rounded-xl mb-4"
-         loop={true} 
+        loop={true}
       >
         {thumbnails.map((thumb, idx) => (
           <SwiperSlide key={idx}>
             <div
               className="rounded-[16px] w-full aspect-[651/484] bg-no-repeat bg-cover bg-center transition-all duration-300"
               style={{
+                backgroundColor: "#FAF2EF",
                 backgroundImage: `url("src/assets/img-1.png")`,
                 backgroundSize: thumb.size,
                 backgroundPosition: thumb.position,
@@ -57,6 +58,7 @@ export default function ProductGallery() {
             <div
               className="rounded-[16px] w-full aspect-[651/484] bg-no-repeat bg-cover bg-center transition-all duration-300 cursor-pointer"
               style={{
+                backgroundColor: "#FAF2EF",
                 backgroundImage: `url("src/assets/img-1.png")`,
                 backgroundSize: thumb.size,
                 backgroundPosition: thumb.position,

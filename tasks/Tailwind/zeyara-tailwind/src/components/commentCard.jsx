@@ -1,6 +1,6 @@
 const CommentCard = () => {
   return (
-    <div className="max-w-xl rounded-2xl p-6">
+    <div className="border-2 border-black max-w-xl rounded-2xl p-6">
       {/* Top section */}
       <div className="flex items-center justify-between">
         {/* User info */}
