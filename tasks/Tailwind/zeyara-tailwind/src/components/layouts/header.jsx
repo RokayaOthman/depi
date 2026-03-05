@@ -4,9 +4,9 @@ const Header = () => {
       {/* Navbar */}
       <div className="w-full bg-[#2C2E33]">
         <div className="max-w-7xl mx-auto px-10 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4 md:gap-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8">
             {/* Logo */}
-            <div className="flex flex-col items-center w-[119px]">
+            <div className=" flex flex-col items-center w-[119px]">
               <h1 className="font-['jsMath-cmbx10'] font-bold text-4xl text-white">
                 Zeyara
               </h1>
@@ -14,7 +14,7 @@ const Header = () => {
             </div>
 
             {/* Links */}
-            <nav className="w-full md:w-auto">
+            <nav className="">
               <ul className="flex flex-row list-none m-0 p-0 gap-16 justify-center md:justify-start">
                 {["Home", "Products", "Cart", "About", "Contact Us"].map(
                   (link) => (
@@ -32,7 +32,8 @@ const Header = () => {
             </nav>
 
             {/* Buttons */}
-            <div className="flex gap-4">
+
+            <div className="flex  gap-4 justify-end">
               <button className="bg-[rgba(250,242,239,1)] px-6 py-2 text-[18px] font-normal rounded">
                 Log In
               </button>
@@ -45,9 +46,8 @@ const Header = () => {
         {/* Push content down so header doesn't cover search bar */}
         <div className="bg-[#DFD2CA] py-6">
           <div className="flex justify-content-center md:justify-end px-4 mr-20">
-            <div className="bg-[#FFFF] rounded shadow-md h-[40px] flex items-center px-4">
-              {/* <div className="mr-2 text-gray-500">🔍</div> */}
-              <i
+            <div className="border-1 border-solid border-black bg-[#FFFF] rounded shadow-md h-[40px] flex items-center px-4">
+                <i
                 className="fa-solid fa-magnifying-glass"
                 style={{ color: "rgb(187, 193, 205)" }}
               />
