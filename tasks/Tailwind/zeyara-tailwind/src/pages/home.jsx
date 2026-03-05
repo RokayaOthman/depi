@@ -6,7 +6,7 @@ import Reviews from '../components/sections/reviews';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='bg-[#faf0e689]'>
       <Header />
       <main>
         <Hero />

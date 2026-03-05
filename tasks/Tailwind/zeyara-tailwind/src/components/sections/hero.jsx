@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       {/* div that holds two cards side by side */}
-      <div className=" mt-6 flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 max-w-5xl mx-auto px-6">
+      <div className="mt-6 flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 max-w-5xl mx-auto px-6">
         {/* Card-1 - Image Section */}
         <div className=" flex-1">
           {/* Products Details Text */}

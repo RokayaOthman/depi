@@ -28,7 +28,7 @@ const CommentCard = () => {
         recommended it for you. It’s material is very perfect
       </p>
       {/* Date */}
-      <p className="mt-4 text-gray-400 text-sm">2 days ago</p>
+      <p className="align-start text-left mt-4 text-gray-400 text-sm">2 days ago</p>
     </div>
   );
 };
