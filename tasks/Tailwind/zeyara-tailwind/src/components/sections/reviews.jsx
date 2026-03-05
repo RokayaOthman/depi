@@ -1,14 +1,17 @@
+import CommentCard from "../commentCard";
 const Reviews = () => {
     return (
         <>
         {/* Container */}
-        <div className="mt-10">
+        <div className="">
                 {/* reviews section */}
-                <div className="flex mx-9 " >
+                <div className="flex flex-col items-start max-w-1xl mx-auto px-6" >
                     {/* header */}
-                        <div>
-                            <h1 className="font-normal font-paytone">Reviews</h1>
+                        <div className="">
+                            <h1 className="font-normal font-paytone my-10">Reviews</h1>
                         </div>
+                    {/* Comments */}
+                    <CommentCard />
                 </div>
         </div>
         </>
