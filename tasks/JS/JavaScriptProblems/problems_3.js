@@ -77,7 +77,7 @@ function sentenceSmash(words) {
 }
 
 // Example usage:
-//  console.log(sentenceSmash(["one", "two", "three"]));
+  console.log(sentenceSmash(["one", "two", "three"]));
 
 // --------------------------------------------
 
