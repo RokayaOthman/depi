@@ -1,7 +1,7 @@
 //import React from 'react';
 import Header from '../components/layouts/header';
 import Hero from '../components/sections/hero';
-import Reviews from '../components/sections/reviews';
+import Reviews from '../components/sections/reviewsSection';
 //import styles from './HomePage.module.css';
 
 const HomePage = () => {
