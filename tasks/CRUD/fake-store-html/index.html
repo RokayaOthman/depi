@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {}
+    </script>
+
+</head> 
+<body>
+    <div class="font-semibold max-w-xl mx-auto my-8 flex flex-col gap-2">
+    <label for="products-search">Search items: </label>
+    <input class="h-full border border-gray-300 rounded-lg pl-2 " type="search" id="products-search" placeholder="Type to search..."/> 
+    </div>  
+    
+    <div class=" bg-gray-300 p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6" id="products"></div>
+    <script src="index.js"></script>
+</body>
+</html>
