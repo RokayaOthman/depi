@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD products</title>
+    <!-- ✅ Fixed: Removed trailing spaces in CDN URL -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center font-semibold bg-gray-900 min-h-screen p-4">
+    
+    <!-- main container -->
+    <div class="text-center w-full max-w-6xl">
+      
+      <!-- title -->
+      <div class="mt-5 text-center">
+        <h1 class="text-3xl font-bold my-8 text-white">CRUDS</h1>
+        <h2 class="text-2xl text-gray-400">Product Management system</h2>
+      </div>
+      
+      <!-- ------------------------------------------------------------------------------- -->
+      <!-- Section-1 : CREATE -->
+      <div class="my-12">
+        <h1 class="text-3xl font-bold mb-8 text-white">CREATE</h1>
+        
+        <!-- ✅ Fixed: Added id="main-form", combined classes, removed duplicate class attr -->
+        <form id="main-form" class="grid grid-cols-5 gap-5 bg-gray-800 p-6 rounded-xl">
+          
+          <!-- ✅ Fixed: Added class="form-input" and name="..." to each input -->
+          <input
+            type="text"
+            name="title"
+            class="form-input pl-4 col-span-5 border border-gray-600 rounded py-3 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Title *"
+            id="title-input"
+            required
+          />
+          
+          <input
+            type="number"
+            name="price"
+            class="form-input pl-4 col-span-1 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Price *"
+            id="price-input"
+            required
+          />
+          
+          <input 
+            type="number" 
+            name="taxes" 
+            class="form-input pl-4 col-span-1 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+            placeholder="Taxes" 
+            id="taxes-input" 
+          />
+          
+          <input 
+            name="ads" 
+            class="form-input pl-4 col-span-1 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+            placeholder="Ads" 
+            id="ads-input" 
+            type="number" 
+          />
+          
+          <input 
+            type="number" 
+            name="count" 
+            class="form-input pl-4 col-span-1 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+            placeholder="Count *" 
+            id="count-input"
+          />
+          
+          <div id="total-div" class=" col-span-1 border border-gray-600 rounded py-2 bg-red-600 text-white font-semibold flex items-center justify-center">
+            Total
+          </div>
+          
+          <input 
+            type="number" 
+            name="discount" 
+            class="form-input pl-4 col-span-2 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+            placeholder="Discount" 
+            id="discount-input"
+          />
+          
+          <input 
+            type="text" 
+            name="category" 
+            class="form-input pl-4 col-span-3 border border-gray-600 rounded py-2 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+            placeholder="Category *" 
+            id="category-input" 
+            required 
+          />
+          
+          <!-- ✅ Fixed: Removed duplicate <button> tag, added proper centering -->
+          <button 
+            id="sbmt-btn" 
+            type="submit"
+            class="flex items-center justify-center col-span-5 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded px-4 py-3 transition"
+          >
+            Create
+          </button>
+          
+        </form>
+      </div>
+      
+      <!-- ------------------------------------------------------------------------------- -->
+      <!-- Section-2 : SEARCH -->
+      <div class="my-12">
+        <h1 class="text-3xl font-bold text-white">SEARCH</h1>
+        <!-- Search Container -->
+        <div class="p-6">
+          <input class="w-full "
+        </div>
+      </div>
+      
+      <!-- ------------------------------------------------------------------------------- -->
+      <!-- Section-3 : PRODUCTS -->
+      <div>
+        <h1 class="text-3xl font-bold mb-8 text-white">PRODUCTS</h1>
+        
+        <!-- List Container -->
+        <div id="products-list" class="overflow-x-auto rounded-xl border border-gray-700">
+          <table class="w-full border-collapse text-white">
+            <thead>
+              <tr class="bg-gray-800 uppercase tracking-wide text-sm text-gray-300">
+                <th class="px-4 py-3 border-b border-gray-700 text-left">ID</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Title</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Price</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Taxes</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Category</th>
+                <th class="total-div px-4 py-3 border-b border-gray-700 text-left">Total</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Status</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Update</th>
+                <th class="px-4 py-3 border-b border-gray-700 text-left">Delete</th>
+              </tr>
+            </thead>
+            <!-- ✅ Fixed: Added tbody for dynamic rows -->
+            <tbody id="table-body">
+              <!-- Rows will be inserted here by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- ✅ Script at end of body ensures DOM is loaded -->
+    <script src="index.js"></script>
+  </body>
+</html>
