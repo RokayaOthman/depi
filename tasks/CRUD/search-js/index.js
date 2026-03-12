@@ -14,21 +14,25 @@ form.addEventListener("submit", (e) => {
     })
     
     data.push(newRowData)
-    showData()
+    showData(data)
 })
+
 const totalDiv = document.getElementById("total-div")
 
-function showData() {
-    tableBody.innerHTML = "" // ✅ Clear tbody, not the whole container
+function showData(data) {
+    tableBody.innerHTML = "" 
     inputs.forEach(input => { input.value = "" })
     totalDiv.innerText = "Total"
     let total = 0;
+    // in case user searched for something...
+    const searchTerm = document.getElementById("search-input").value
     data.forEach((el, index) => {
         total = +el.count * (+el.price + +el.taxes + +el.ads - +el.discount)
+        const highlightedTitle = highlightText(el.title, searchTerm)
         totalDiv.innerText = total
         let cols = `
             <td class="px-4 py-3">${index + 1}</td>
-            <td class="px-4 py-3">${el.title}</td>
+            <td class="px-4 py-3">${highlightedTitle}</td>
             <td class="px-4 py-3">${el.price}</td>
             <td class="px-4 py-3">${el.taxes}</td>
             <td class="px-4 py-3">${el.category}</td>
@@ -52,6 +56,18 @@ tableBody.addEventListener("click" , (e) => {
         // get the index of the row to be deleted
         const index = e.target.dataset.index;
         data.splice(index, 1)
-        showData()
+        showData(data)
     }
 })
+
+const searchInput = document.getElementById("search-input")
+searchInput.addEventListener("input", function() {
+    const searchTerm = searchInput.value.toLowerCase()
+    const filteredProducts = data.filter(product => product.title.toLowerCase().includes(searchTerm))
+    showData(filteredProducts)
+})
+function highlightText(text, term){
+    if(!term) return text
+    const regex = new RegExp(`(${term})`, "gi")
+    return text.replace(regex,  `<mark class="bg-yellow-300">$1</mark>`)
+}
