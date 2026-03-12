@@ -21,26 +21,25 @@ form.addEventListener("submit", (e) => {
 
 
 function showdata() {
-cardList.innerHTML = "";
-priceInput.value = "";
-titleInput.value = '';
-data.forEach((el) => {
-  cardList.innerHTML += `
-        <div class="bg-white max-w-sm rounded-lg overflow-hidden m-4">
-            <div>   
-                <img src="/images.jpg" class=" w-full h-48"   >
-                <div>
-                    <h5>${el.title}</h5>
-                    <p>${el.price}</p>
+    cardList.innerHTML = "";
+    priceInput.value = "";
+    titleInput.value = '';
+    data.forEach((el) => {  
+      cardList.innerHTML += `
+            <div class="bg-white max-w-sm rounded-lg overflow-hidden m-4">
+                <div>   
+                    <img src="/images.jpg" class=" w-full h-48"   >
+                    <div>
+                        <h5>${el.title}</h5>
+                        <p>${el.price}</p>
+                    </div>
+                
                 </div>
-            
+
+
             </div>
 
-
-        </div>
-
-    `;
-});
+        `;
+    });
 }
-
 
