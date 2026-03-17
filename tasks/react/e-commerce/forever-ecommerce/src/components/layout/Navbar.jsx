@@ -1,14 +1,16 @@
+import Logoimg from "../../assets/Logos/download.png"
+
 function Navbar() {
   return (
     <nav className="flex items-center justify-between border-b">
 
       {/* Logo */}
-      <div className="text-xl font-bold">
-        FOREVER
+      <div>
+       <img src={Logoimg}/>
       </div>
 
       {/* Links */}
-      <ul className="flex gap-6">
+      <ul className="text-lg flex gap-5 py-5 text-gray-700 font-bold">
         <li><a href="/">Home</a></li>
         <li><a href="/collections">Collections</a></li>
         <li><a href="/about">About</a></li>
@@ -16,7 +18,7 @@ function Navbar() {
       </ul>
 
       {/* Icons */}
-      <div className="flex gap-4 text-lg">
+      <div className="flex gap-8 text-lg">
         <span>🔍</span>
         <span>👤</span>
         <span>🛒</span>

@@ -1,8 +1,11 @@
 import Hero  from "../sections/Hero"
+import ProductsList from "../sections/ProductsList"
+import LatestCollections from "../sections/LatestCollections"
 function Home() {
     return (
         <>
             <Hero></Hero>
+            <LatestCollections></LatestCollections>
         </>
     )
 }

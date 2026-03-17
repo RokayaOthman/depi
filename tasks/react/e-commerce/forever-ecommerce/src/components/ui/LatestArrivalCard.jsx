@@ -5,16 +5,16 @@ function LatestArrivalsCard() {
       <div className="flex flex-col md:flex-row items-center gap-8">
         
         {/* Text side */}
-        <div className="md:w-1/2 text-center md:text-left">
-          <p className="text-sm text-gray-600 mb-1">OUR BESTSELLER</p>
-          <h2 className="text-8xl font-serif font-bold text-gray-900 mb-3">
+        <div className="text-amber-900 md:w-1/2 gap-y-5 text-center md:text-left">  
+          <p className="font-mono text-xl mb-1">____ OUR BESTSELLER</p>
+          <h2 className="text-5xl font-prata prata-regular mb-3 font-bold">
             Latest Arrivals
           </h2>
           <a
             href="/collections"
-            className="inline-block text-lg font-medium text-amber-700 border-b-2 border-amber-700"
+            className="font-mono inline-block text-xl font-medium"
           >
-            SHOP NOW
+            SHOP NOW ____
           </a>
         </div>
 
