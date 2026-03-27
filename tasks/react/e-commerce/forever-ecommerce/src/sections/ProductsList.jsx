@@ -10,22 +10,23 @@ import img9 from "../assets/products/img-9.png";
 // creating a list of objects for cards data
 let name = "Men Round Neck Pure Cotton T-shirt";
 let price = "67$";
+// adding id to each product
 const products = [
-  { image: img11, name: name, price: price },
-  { image: img7, name: name, price: price },
-  { image: img4, name: name, price: price },
-  { image: img5, name: name, price: price },
-  { image: img6, name: name, price: price },
-  { image: img9, name: name, price: price },
-  { image: img2, name: name, price: price },
+  { id: 1, image: img11, name, price },
+  { id: 2, image: img7, name, price },
+  { id: 3, image: img4, name, price },
+  { id: 4, image: img5, name, price },
+  { id: 5, image: img6, name, price },
+  { id: 6, image: img9, name, price },
+  { id: 7, image: img2, name, price },
 ];
-
 function ProductsList() {
   return (
     <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center">
       {products.map((product, index) => (
         <ProductsCard
-          key={index}
+          key={product.id}
+          id={product.id}
           image={product.image}
           name={product.name}
           price={product.price}
