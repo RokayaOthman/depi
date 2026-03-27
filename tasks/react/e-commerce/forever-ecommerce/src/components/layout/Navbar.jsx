@@ -1,6 +1,14 @@
+import { useEffect, useState } from "react";
 import Logoimg from "../../assets/Logos/download.png";
 
 function Navbar() {
+
+  const [cartCount, setCartCount] = useState(0)
+  useEffect(() => {
+    const storedCount = Number(localStorage.getItem("cartCounter")) || 0
+    setCartCount(storedCount)
+  }, [])
+
   return (
     <nav className="flex items-center justify-between">
       {/* Logo */}
@@ -9,7 +17,7 @@ function Navbar() {
       </div>
 
       {/* Links */}
-      <ul className="font-mono font-medium text-xl flex gap-7 py-5 text-gray-700 font-bold">
+      <ul className="font-mono text-xl flex gap-7 py-5 text-gray-700 font-bold">
         <li>
           <a href="/">Home</a>
         </li>
@@ -34,7 +42,7 @@ function Navbar() {
         </span>
         <a href="src/pages/cart.jsx" className="relative">
           <img className="w-5" src="src/assets/Logos/cart.png"></img>
-          <p className="absolute w-4 -bottom-1 -right-1 text-center bg-gray-900 text-white aspect-square leading-4 rounded-full text-[8px]">0</p>
+          <p className="cart-counter absolute w-4 -bottom-1 -right-1 text-center bg-gray-900 text-white aspect-square leading-4 rounded-full text-[8px]">{cartCount}</p>
         </a>
       </div>
     </nav>

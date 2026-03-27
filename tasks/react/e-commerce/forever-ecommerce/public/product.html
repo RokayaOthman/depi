@@ -12,7 +12,7 @@
 
   <!-- Logo -->
   <div>
-    <img class="w-36" src="/e-commerce/forever-ecommerce/src/assets/Logos/download.png">
+    <img class="w-36" src="src/assets/Logos/download.png">
   </div>
 
   <!-- Links -->
@@ -27,7 +27,10 @@
   <div class="flex gap-8 text-lg">
     <span>🔍</span>
     <span>👤</span>
-    <span>🛒</span>
+    <a href="src/pages/cart.jsx" class="relative">
+          <img class="w-4" src="src/assets/Logos/cart.png"></img>
+          <p class="cart-counter absolute w-4 -bottom-1 -right-1 text-center bg-gray-900 text-white aspect-square leading-4 rounded-full text-[8px]">0</p>
+      </a>
   </div>
 
 </nav>

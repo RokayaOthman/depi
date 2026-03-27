@@ -77,7 +77,7 @@ sizeButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
     if (selectedSize === btn.textContent) {
       btn.classList.remove("bg-red-500");
-      selectedSize = null
+      selectedSize = null;
       return;
     }
     sizeButtons.forEach((b) => b.classList.remove("bg-red-500"));
@@ -87,8 +87,18 @@ sizeButtons.forEach((btn) => {
   });
 });
 
+const cartCounterElement = document.querySelector(".cart-counter");
+let cartCounter = Number(localStorage.getItem("cartCounter")) || 0
 buyNowButton.addEventListener("click", () => {
   if (selectedSize == null) {
     alert("choose a size please");
+    return;
   }
+  cartCounter++;
+  localStorage.setItem("cartCounter", cartCounter);
+  cartCounterElement.textContent = cartCounter;
+  console.log("Added size:", selectedSize);
 });
+
+cartCounterElement.textContent = cartCounter;
+
